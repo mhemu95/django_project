@@ -1,0 +1,17 @@
+{% static 'front/' %}
+
+
+{% url ' ' %}
+
+
+
+{% extends 'front/base.html' %}
+
+{% load static %}
+
+{% block mainblock %}
+
+{% endblock %}
+
+
+{% url 'blog_detail' pk=i.pk %}
