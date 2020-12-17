@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <h3>this is the test login page</h3>
+    <h3 style="text-align: center; display: grid;">this is the test login page</h3>
 
-    <div>
+    <div style="display: flexbox; text-align: center;">
         <form action="{% url 'testlogin' %}" method="POST">
             {% csrf_token %}
             <input type="text" name="username" id="username" placeholder="username"> <br>
